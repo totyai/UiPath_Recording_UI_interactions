@@ -1,0 +1,57 @@
+{
+  "name": "Recording_UI_Interactions",
+  "projectId": "cba8d299-6f60-4394-8c5d-abe003465930",
+  "description": "To perform their task, they use the Double UI App, where they input the information from the spreadsheet. The application generates the numbers, which then Jude must retrieve to the same spreadsheet, in a dedicated column.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.ComplexScenarios.Activities": "[1.5.0]",
+    "UiPath.Excel.Activities": "[2.24.3]",
+    "UiPath.Mail.Activities": "[1.23.11]",
+    "UiPath.Presentations.Activities": "[1.14.1]",
+    "UiPath.System.Activities": "[24.11.0-preview]",
+    "UiPath.UIAutomation.Activities": "[24.11.1-preview]",
+    "UiPath.Word.Activities": "[1.20.2]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.6.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "exceptionHandlerWorkflow": "GlobalHandlerX.xaml",
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Business",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
